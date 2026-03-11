@@ -39,6 +39,9 @@
       <Reference Include="GorillaLibrary.GameModes">
         <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Gorilla Tag\Mods\GorillaLibrary.GameModes.dll</HintPath>
       </Reference>
+      <Reference Include="GorillaToolkit">
+        <HintPath>..\..\..\Downloads\GorillaToolkit.dll</HintPath>
+      </Reference>
       <Reference Include="KID">
         <HintPath>..\..\..\.steam\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\KID.dll</HintPath>
       </Reference>
