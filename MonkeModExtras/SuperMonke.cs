@@ -13,7 +13,7 @@ public class SuperMonke : Monke_Mod_Panel.Mod
     {
         if (ControllerInputPoller.instance.rightControllerSecondaryButton)
         {
-            GorillaLocomotion.GTPlayer.Instance.transform.position += GorillaTagger.Instance.headCollider.transform.forward * 12f * Time.deltaTime;
+            GorillaLocomotion.GTPlayer.Instance.transform.position += GorillaTagger.Instance.headCollider.transform.forward * 12f * Time.deltaTime * GorillaLocomotion.GTPlayer.Instance.scale;
             GorillaLocomotion.GTPlayer.Instance.bodyCollider.attachedRigidbody.velocity = Vector3.zero;
         }
 
