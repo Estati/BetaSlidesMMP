@@ -17,12 +17,12 @@ The base mod comes with Platforms & Up and Down built in <br/> Monke Mod Extras 
 ### Platforms
 ![Alt text for the image](https://private-user-images.githubusercontent.com/80132671/561282953-f03c2eb0-d3f8-4012-b646-44a434dc949d.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzMyOTExMjQsIm5iZiI6MTc3MzI5MDgyNCwicGF0aCI6Ii84MDEzMjY3MS81NjEyODI5NTMtZjAzYzJlYjAtZDNmOC00MDEyLWI2NDYtNDRhNDM0ZGM5NDlkLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAzMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMzEyVDA0NDcwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRkYTMzZjYzN2UwZjNhNjFjYmNmZDg3ODM3ZDRhODcyMWJlYjVhNDQxYTkyYzcxY2E5YjYwMDc4MmE2MTk4NjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.wK3Eys857XQ65B3Y_g4dWWS9VqRmg8VTpxkg_0ouW8c) <br/>
 ### Super Monke
-![bmTPW.gif](https://s13.gifyu.com/images/bmTPW.gif) <br/>
+[bmTPW.gif](https://s13.gifyu.com/images/bmTPW.gif) <br/>
 ### Grip Monke
-![bmTPc.gif](https://s13.gifyu.com/images/bmTPc.gif) <br/> 
+[bmTPc.gif](https://s13.gifyu.com/images/bmTPc.gif) <br/> 
 ### Iron Monke 
-![bmTPn.gif](https://s13.gifyu.com/images/bmTPn.gif) <br/>
+[bmTPn.gif](https://s13.gifyu.com/images/bmTPn.gif) <br/>
 ### Long Arms 
-![bmTP4.gif](https://s13.gifyu.com/images/bmTP4.gif) <br/>
+[bmTP4.gif](https://s13.gifyu.com/images/bmTP4.gif) <br/>
 ### No Clip
-![bmTPg.gif](https://s13.gifyu.com/images/bmTPg.gif)
+[bmTPg.gif](https://s13.gifyu.com/images/bmTPg.gif)
