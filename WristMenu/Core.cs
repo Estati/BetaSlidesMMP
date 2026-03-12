@@ -5,10 +5,13 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using GorillaLibrary.GameModes.Attributes;
+using GorillaNetworking;
 using Monke_Mod_Panel.Attributes;
 using TMPro;
 using UnityEngine;
 using UnityEngine.XR;
+using HarmonyLib;
+using GorillaLibrary;
 
 [assembly: MelonInfo(typeof(Monke_Mod_Panel.Core), "Monke Mod Panel", "1.0.0", "Estatic & biotest05", null)]
 [assembly: MelonGame("Another Axiom", "Gorilla Tag")]
@@ -35,7 +38,8 @@ namespace Monke_Mod_Panel
         private bool prevLeftPrimary = false;
         private bool prevLeftSecondary = false;
         private bool openRequested = false;
-
+        private bool prevStickClick = false;
+        public static bool IsSteamVR = false;
         public override void OnEarlyInitializeMelon()
         {
             Instance = this;
@@ -43,7 +47,6 @@ namespace Monke_Mod_Panel
 
         public override void OnInitializeMelon()
         {
-            new GameObject("WristMenu", typeof(InputManager));
             
             LoadMods();
             
@@ -88,8 +91,10 @@ namespace Monke_Mod_Panel
             ButtonPresser.SetActive(menu.activeSelf);
             
             const int modsPerPage = 5;
+
+            bool stickClick = GorillaLibrary.Utilities.InputUtility.LeftStickClick.GetValue();
             
-            if (ControllerInputPoller.instance.leftGrab)
+            if (stickClick && !prevStickClick)
             {
                 if (!openRequested)
                 {
@@ -97,21 +102,19 @@ namespace Monke_Mod_Panel
                     targetScale = openScale;
                     animating = true;
                     menu.SetActive(true);
-
                     AudioUtil.PlayClip("WristMenu.Resources.open.wav", menu.transform.position);
                 }
-            }
-            else
-            {
-                if (openRequested)
+                else
                 {
                     openRequested = false;
                     targetScale = closedScale;
                     animating = true;
-
                     AudioUtil.PlayClip("WristMenu.Resources.close.wav", menu.transform.position);
                 }
             }
+
+            prevStickClick = stickClick;
+            
 
             if (Mods.Count > modsPerPage && menu.activeSelf)
             {
