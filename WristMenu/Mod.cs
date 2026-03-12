@@ -23,7 +23,9 @@ public abstract class Mod
     
     public virtual void OnModdedLeave(){}
     public virtual void OnModdedJoin(){}
-    
+
+    public virtual void OnInitializeMelon() { }
+
     public virtual void OnClicked()
     {
         if (Toggleable)

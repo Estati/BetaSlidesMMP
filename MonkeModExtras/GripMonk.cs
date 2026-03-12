@@ -2,6 +2,7 @@
 using UnityEngine;
 using HarmonyLib;
 using System.Reflection;
+using MelonLoader;
 
 namespace ModTemplate;
 
@@ -13,6 +14,12 @@ public class GripMonk : Monke_Mod_Panel.Mod
     private static HarmonyLib.Harmony harmony = new HarmonyLib.Harmony("com.est.gtag.gripmonk");
     public static bool inModdedRoom = false;
 
+    public override void OnInitializeMelon()
+    {
+        inModdedRoom = false;
+        var original = AccessTools.Method(typeof(GorillaLocomotion.GTPlayer), "GetSlidePercentage");
+        harmony.Unpatch(original, HarmonyPatchType.All);
+    }
     public override void OnEnable()
     {
         inModdedRoom = true;

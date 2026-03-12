@@ -55,6 +55,10 @@ namespace Monke_Mod_Panel
             
             if (AudioUtil.GetClip("WristMenu.Resources.open.wav") == null)
                 LoggerInstance.Error("Could not find WritstMenu.Resources.open.wav");
+            foreach (Mod mod in Mods)
+            {
+                mod.OnInitializeMelon();
+            }
         }
 
         [ModdedGamemodeJoin]
