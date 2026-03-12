@@ -43,7 +43,7 @@ namespace Monke_Mod_Panel
 
         public override void OnInitializeMelon()
         {
-            LoggerInstance.Msg("Initialized.");
+            new GameObject("WristMenu", typeof(InputManager));
             
             LoadMods();
             
