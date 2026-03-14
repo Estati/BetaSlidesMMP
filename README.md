@@ -13,17 +13,11 @@ You can make your own Panel extenstions by forking this repo and using the "Mod 
 
 The base mod comes with Platforms & Up and Down built in <br/> Monke Mod Extras comes with all of my BananaOS integrations remade for the latest version of gorilla tag aswell as a few new things! <br/>
 
-### Up and Down <br/> 
-![Alt text for the image](https://files.elliemese.win/updwn.gif) <br/>
-### Platforms
-![Alt text for the image](https://files.elliemese.win/plats.gif) <br/>
-### Super Monke
-[bmTPW.gif](https://s13.gifyu.com/images/bmTPW.gif) <br/>
-### Grip Monke
-[bmTPc.gif](https://s13.gifyu.com/images/bmTPc.gif) <br/> 
-### Iron Monke 
-[bmTPn.gif](https://s13.gifyu.com/images/bmTPn.gif) <br/>
-### Long Arms 
-[bmTP4.gif](https://s13.gifyu.com/images/bmTP4.gif) <br/>
-### No Clip
-[bmTPg.gif](https://s13.gifyu.com/images/bmTPg.gif)
+## Mods
+https://files.elliemese.win/GripMonk.gif <br/>
+https://files.elliemese.win/ironmonk.gif <br/>
+https://files.elliemese.win/longarms.gif <br/>
+https://files.elliemese.win/noclip.gif <br/>
+https://files.elliemese.win/plats.gif <br/>
+https://files.elliemese.win/supermonk.gif <br/>
+https://files.elliemese.win/updwn.gif 
