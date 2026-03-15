@@ -9,7 +9,7 @@ namespace ModTemplate;
 [Toggleable]
 public class GripMonk : Monke_Mod_Panel.Mod
 {
-    public override string Name => "GripMonk";
+    public override string Name => "Grip Monk";
     
     private static HarmonyLib.Harmony harmony = new HarmonyLib.Harmony("com.est.gtag.gripmonk");
     public static bool inModdedRoom = false;

@@ -6,7 +6,7 @@ namespace ModTemplate;
 [Toggleable]
 public class NoClip : Monke_Mod_Panel.Mod
 {
-    public override string Name => "NoClip (Y)";
+    public override string Name => "No Clip (Y)";
     public static bool NoClipOn;
     public override void OnUpdate()
     {
